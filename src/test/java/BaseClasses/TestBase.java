@@ -1,3 +1,5 @@
+package BaseClasses;
+
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
@@ -12,10 +14,11 @@ public class TestBase {
     @Before
     public void beforeTest() {
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
     }
 
     @After
     public void shutDown() {
-        driver.close();
+        driver.quit();
     }
 }
