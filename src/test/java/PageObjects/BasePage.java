@@ -48,4 +48,9 @@ public class BasePage {
         waitForVisibility(elementBy);
         Assert.assertEquals(readText(elementBy), assertedText);
     }
+
+    public void assertElementIsDisplayed (By elementBy) {
+        //waitForVisibility(elementBy);
+        Assert.assertTrue(driver.findElement(elementBy).isDisplayed());
+    }
 }

@@ -17,4 +17,27 @@ public class MainPage extends BasePage{
 
     //***Web elements***
     By loginInput = By.cssSelector("[name='login']");
+    By passwordInput = By.cssSelector("[name='pass']");
+    By enterButton = By.cssSelector("[value='Войти']");
+
+    //Page methods
+    public MainPage goToMainPage() {
+        driver.get(baseUrl);
+        return this;
+    }
+
+
+    public MainPage loginToMailbox(String email, String password) {
+        //fill in email
+        writeText(loginInput, email);
+        //fill in password
+        writeText(passwordInput, password);
+        //click on Login button
+        click(enterButton);
+        return this;
+    }
+
+
+
+
 }

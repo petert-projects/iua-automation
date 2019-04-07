@@ -14,7 +14,6 @@ public class TestBase {
     @Before
     public void beforeTest() {
         driver = new ChromeDriver();
-        driver.manage().window().maximize();
     }
 
     @After
