@@ -23,13 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a958123f-687b-43dd-858f-7444c060420c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/ErrorPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/BasePage.class" afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/BasePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/MainPage.class" afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/MainPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Tests/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/Tests/LoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PageObjects/BasePage.java" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/BasePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginTest.java" />
     </list>
     <ignored path="iuaAutomation.iws" />
@@ -67,8 +60,8 @@
       <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5007949">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6677266">
+              <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -917,7 +910,7 @@
       <option name="number" value="Default" />
       <updated>1554484693997</updated>
       <workItem from="1554484695195" duration="9652000" />
-      <workItem from="1554633447101" duration="528000" />
+      <workItem from="1554633447101" duration="595000" />
     </task>
     <servers />
   </component>
@@ -954,7 +947,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10180000" />
+    <option name="totallyTimeSpent" value="10247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1140,8 +1133,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5007949">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6677266">
+          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
