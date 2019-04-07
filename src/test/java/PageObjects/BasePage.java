@@ -44,7 +44,7 @@ public class BasePage {
     }
 
     //Assert
-    public void assertEquals (By elementBy, String assertedText) {
+    public void assertTextMatches(By elementBy, String assertedText) {
         waitForVisibility(elementBy);
         Assert.assertEquals(readText(elementBy), assertedText);
     }
