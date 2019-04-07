@@ -28,4 +28,13 @@ public class LoginTest extends TestBase {
         mainPage.goToMainPage().selectDropdownlistItemByText("ua.fm").loginToMailbox("automationiua","automation-iua");
         errorPage.assertErrorMessageIsCorrect("Неверный логин или пароль");
     }
+
+    @Test
+    public void wrongPasswordLogin() {
+        MainPage mainPage = new MainPage(driver);
+        ErrorPage errorPage = new ErrorPage(driver);
+
+        mainPage.goToMainPage().loginToMailbox("automationiua","automation-xxx");
+        errorPage.assertErrorMessageIsCorrect("Неверный логин или пароль");
+    }
 }
